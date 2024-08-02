@@ -39,7 +39,7 @@ double F(const double &x) {
     return 100.0; 
   }
   else if (6.0 * x >= H) {
-    return ((((100.0 - A)) * 6.0) / H) * x + (A) - ((100.0 - A));
+    return ((((100.0 - A)) * 6.0) / H) * x + (A) - ((100.0 - A)); 
   }
   else {
     return 6*A*x/H;

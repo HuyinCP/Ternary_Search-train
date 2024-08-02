@@ -33,17 +33,20 @@ Nhận xét:
 		nếu x >= H/3 -> 100% 
 */
 
-double F(const double &x) {
-  if (3.0 * x >= H) 
-  {
-    return 100.0; 
-  }
-  else if (6.0 * x >= H) {
-    return ((((100.0 - A)) * 6.0) / H) * x + (A) - ((100.0 - A)); 
-  }
-  else {
-    return 6*A*x/H;
-  }
+double F(const double &x) 
+{
+    if (3.0 * x >= H) 
+    {
+        return 100.0; 
+    }
+    else if (6.0 * x >= H) 
+    {
+        return ((((100.0 - A)) * 6.0) / H) * x + (A) - ((100.0 - A)); 
+    }
+    else 
+    {
+        return 6 * A * x / H;
+    }
 }
 
 signed main() {

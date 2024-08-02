@@ -4,6 +4,7 @@
 #define fastbuild ios::sync_with_stdio(false); cin.tie(0);
 using namespace std;
 /*
+LINK BAI: https://codeforces.com/contest/578/problem/C
 Nhận xét:
 
     khi mà x càng bé (tiến tới âm vô cùng) : [a0 - x , a1 - x, a2 - x, a3 - x, .. a[n-1] - x] càng lớn -> có tổng càng lớn
@@ -66,7 +67,7 @@ double f(const double &x)
 signed main() 
 {
     fastbuild;
-    
+
     cin >> n;
     for (int i = 0; i < n; i++)
     {
